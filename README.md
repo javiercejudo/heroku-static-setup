@@ -12,7 +12,7 @@ static site, simply follow the instructions below:
 - Copy the files inside `src/` into that new folder.
 - Copy your static site inside a folder named `public/` into that same folder.
 - Wait until Dropbox has synchronised all the files and deploy from the Heroku interface.
-- When the built is finished, you should be able to see your site at https://<your app's name>.herokuapp.com/
+- When the built is finished, you should be able to see your site at https://[your app's name].herokuapp.com/
 
 ## Contents
 
