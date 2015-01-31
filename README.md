@@ -4,8 +4,15 @@ This repository has the basic setup for dploying a static site to heroku.
 
 ## Usage
 
-Your static site should be on a subdirectory `public/` in the same directory
-as the files in `src/`.
+For the simplest setup, you will need a Heroku account and Dropbox. To deploy your
+static site, simply follow the instructions below:
+
+- Login to Heroku and create a new app.
+- Connect to Dropbox. This will create a new folder under `Dropbox/Apps/heroku/` with the name of your app.
+- Copy the files inside `src/` into that new folder.
+- Copy your static site inside a folder named `public/` into that same folder.
+- Wait until Dropbox has synchronised all the files and deploy from the Heroku interface.
+- When the built is finished, you should be able to see your site at https://<your app's name>.herokuapp.com/
 
 ## Contents
 
