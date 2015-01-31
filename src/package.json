@@ -1,8 +1,14 @@
 {
   "name": "heroku-static-setup",
   "version": "0.0.1",
-  "author": "Javier Cejudo",
+  "homepage": "https://github.com/javiercejudo/heroku-static-setup",
   "description": "A skeleton for deploying static sites to Heroku",
+  "author": {
+    "name": "Javier Cejudo",
+    "email": "javier.cejudo@javiercejudo.com",
+    "url": "http://www.javiercejudo.com"
+  },
+  "contributors": [],
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
@@ -17,6 +23,9 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/javiercejudo/heroku-static-setup"
+  },
+  "bugs": {
+    "url": "https://github.com/javiercejudo/heroku-static-setuporg/issues"
   },
   "keywords": [
     "node",

@@ -45,6 +45,14 @@ Dropbox/
 - `index.js`: defines the app, the path to your static site (`public/` by default) and the port (5000 by default).
 - `Procfile`: tells Heroku how to start the server.
 
+## Local testing
+
+- Install [Node.js][nodejs-home].
+- Run `npm install` from the `app-name/` folder where the `package.json` lives.
+- Run `npm start` and visit http://localhost:5000
+
+To start the app on a different port, run `PORT=[your port] npm start`.
+
 [heroku-home]: https://www.heroku.com/
 [dropbox-home]: https://www.dropbox.com/
 [heroku-dropbox-sync]: https://devcenter.heroku.com/articles/dropbox-sync
