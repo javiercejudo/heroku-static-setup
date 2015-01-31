@@ -4,7 +4,7 @@ This repository has the basic setup for dploying a static site to heroku.
 
 ## Usage
 
-For the simplest setup, you will need a Heroku account and Dropbox. To deploy your
+For the simplest setup, you will need accounts in [Heroku](https://www.heroku.com/) and [Dropbox](https://www.dropbox.com/). To deploy your
 static site, simply follow the instructions below:
 
 - Login to Heroku and create a new app.
@@ -17,5 +17,5 @@ static site, simply follow the instructions below:
 ## Contents
 
 - `package.json`: defines the NPM dependencies.
-- `index.js`: defines the app, the path to your static site (`public/` by default) and the port (5000 by default)
+- `index.js`: defines the app, the path to your static site (`public/` by default) and the port (5000 by default).
 - `Procfile`: tells Heroku how to start the server.
