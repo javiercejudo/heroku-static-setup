@@ -3,6 +3,8 @@
 This repository has the basic setup for deploying static sites to
 [Heroku][heroku-home] using [Dropbox][dropbox-home].
 
+See demo at https://github.com/javiercejudo/heroku-static-setup-demo.
+
 ## Basic usage
 
 Requirements:
